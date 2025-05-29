@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 時代的程式設計新思維：掌握「膠水點」，釋放 AI 潛能</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 30px 0;
+            text-align: center;
+            border-bottom: #e8491d 3px solid;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        .section {
+            padding: 30px 20px;
+            margin-bottom: 20px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            text-align: center;
+            color: #35424a;
+            margin-bottom: 30px;
+            font-size: 2em;
+        }
+        .columns {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .column {
+            flex: 1;
+            min-width: 300px;
+            background: #e2e8f0;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .column h3 {
+            color: #e8491d;
+            border-bottom: 2px solid #e8491d;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        .column ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .column ul li {
+            background: #ffffff;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 3px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .column ul li strong {
+            color: #35424a;
+        }
+        .highlight {
+            background-color: #fff3cd;
+            border-left: 5px solid #ffeeba;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .highlight strong {
+            color: #856404;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #35424a;
+            color: #ffffff;
+            margin-top: 30px;
+        }
+        .quote {
+            font-style: italic;
+            color: #555;
+            text-align: center;
+            margin: 20px auto;
+            padding: 10px;
+            max-width: 80%;
+            border-left: 3px solid #e8491d;
+            background-color: #f9f9f9;
+        }
+        .key-summary-item {
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+        .key-summary-item h4 {
+            margin-top: 0;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>AI 時代的程式設計新思維</h1>
+            <p>掌握「膠水點」，善用任務分級，最大化 AI 協作潛能</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="section">
+            <h2>面對 AI 程式設計的挑戰與機遇</h2>
+            <p class="quote">「我發現 AI 對於很多問題的答案是統計式的回答，比較缺乏邏輯性。」</p>
+            <p>這是一個普遍的觀察。AI 在模式識別和代碼生成方面表現出色，但在複雜邏輯、架構設計和業務洞察方面仍需人類智慧主導。我們的目標是建立一個框架，讓人們能夠策略性地利用 AI 的優勢，同時規避其固有的局限性。</p>
+        </section>
+
+        <section class="section">
+            <h2>核心協作策略：兩大支柱</h2>
+            <div class="columns">
+                <div class="column">
+                    <h3>概念一：「膠水點」(Glue Points) 控制策略</h3>
+                    <p>在任何應用程式中，都存在一些最關鍵的部分，它們如同「膠水」般連接不同模組，決定了系統的整體架構和流程。人類開發者應<strong>牢牢掌握這些膠水點</strong>，不輕易交由 AI 改動。</p>
+                    <ul>
+                        <li><strong>定義：</strong>系統中連接多個組件、變更影響範圍廣、需深度理解業務邏輯和技術架構、出錯成本高的關鍵控制點。</li>
+                        <li><strong>目的：</strong>確保系統核心穩定、架構一致、風險可控，並最大程度撬動 AI 協助處理非核心部分。</li>
+                        <li><strong>人類角色：</strong>架構師、設計師，確保系統骨架和神經系統的健康。</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3>概念二：任務重要性分級策略</h3>
+                    <p>將開發任務根據其重要性、複雜性和對創造性思維的需求進行分類，從而決定人與 AI 的參與程度。</p>
+                    <ul>
+                        <li><strong>人類完全掌握：</strong>核心業務邏อฟ演算法、系統架構決策、安全關鍵組件、金流處理等。</li>
+                        <li><strong>人類主導，AI 輔助討論：</strong>設計模式選擇、代碼結構優化、複雜介面設計。</li>
+                        <li><strong>AI 大量參與/處理：</strong>樣板代碼生成、單元測試編寫、UI 組件實現 (在明確規範下)、數據轉換、文檔生成。</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="highlight">
+                <strong>協同作用：</strong>「膠水點」策略定義了<em>「哪裡」</em>需要人類嚴格控制，而「任務重要性分級」策略則定義了在這些區域內外<em>「如何」</em>分配人與 AI 的工作。
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>全端 WebApp 開發中的「膠水點」實例</h2>
+            <p>以下是在典型全端應用中，人類應重點掌握的關鍵膠水點：</p>
+            <div class="columns">
+                <div class="column">
+                    <h3>後端關鍵膠水點</h3>
+                    <ul>
+                        <li><strong>1. 數據模型 (Model) 設計：</strong>系統的基礎，影響所有業務邏輯和數據流。</li>
+                        <li><strong>2. 路由 (Router) 設計：</strong>API 契約，定義系統對外服務的接口和結構。</li>
+                        <li><strong>3. 認證與授權 (Auth) 系統：</strong>安全核心，控制誰能訪問什麼資源。</li>
+                        <li><strong>4. 業務關鍵演算法：</strong>應用的核心價值主張，如比價邏輯、推薦引擎。</li>
+                        <li><strong>5. 金流處理：</strong>高敏感、高風險，需極度謹慎和專業知識。</li>
+                        <li><strong>6. 錯誤處理與日誌架構：</strong>系統穩定性和可維護性的基石。</li>
+                        <li><strong>7. (WebSocket) 連接管理與消息協議：</strong>實時通訊系統的心臟。</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3>前端關鍵膠水點</h3>
+                    <ul>
+                        <li><strong>1. 狀態管理 (Store) 架構：</strong>前端數據流的核心，如 Redux, Vuex, Zustand 的配置與核心邏輯。</li>
+                        <li><strong>2. 複雜交互狀態管理：</strong>涉及多步驟、條件化 UI 的核心用戶體驗流程。</li>
+                        <li><strong>3. 核心組件庫/設計系統架構：</strong>定義 UI 的一致性和可重用性基礎。</li>
+                        <li><strong>4. API 服務層設計：</strong>前端如何與後端 API 交互的抽象層。</li>
+                        <li><strong>5. (WebSocket) 實時數據同步與衝突解決策略。</strong></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="quote"><strong>觀察：</strong>後端「膠水點」常涉及系統的底層邏輯、數據完整性和安全性，而前端「膠水點」則更側重於用戶體驗的連貫性、數據流的複雜管理。兩者同等重要，都需人類智慧主導其核心設計。</p>
+        </section>
+
+        <section class="section">
+            <h2>AI 時代的語言趨勢：強類型語言的復興</h2>
+            <p>當我們明確了「膠水點」和任務分級，AI 需要清晰的「契約」來高效工作。強類型語言在這方面提供了天然優勢。</p>
+            <div class="highlight">
+                <strong>核心論點：</strong>「AI 角色的層次性：AI 不僅能處理"小工作"，還能在您定義的架構內實現完整的功能模塊和組件，只要接口明確定義。」這個特色，將讓強類型語言大放異彩。
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <h3>為何強類型語言受益？</h3>
+                    <ul>
+                        <li><strong>清晰的接口契約：</strong>類型定義明確了數據結構和函數簽名，為 AI 提供了精確的指導。</li>
+                        <li><strong>錯誤早期發現：</strong>編譯時類型檢查能捕獲 AI 生成代碼中的類型不匹配，降低集成風險。</li>
+                        <li><strong>自文檔化：</strong>類型本身就是一種文檔，便於人機理解和協作。</li>
+                        <li><strong>重構安全性：</strong>類型系統有助於在修改代碼時保持一致性。</li>
+                        <li><strong>架構意圖表達：</strong>通過類型系統編碼業務規則和架構約束。</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3>預計未來五年最受益的兩大強類型語言</h3>
+                    <ol>
+                        <li>
+                            <strong>TypeScript:</strong>
+                            <ul>
+                                <li>基於龐大的 JavaScript 生態。</li>
+                                <li>Web 開發（前後端）的主導趨勢。</li>
+                                <li>漸進式類型系統，靈活適應。</li>
+                                <li>與 AI 協作的契合度極高。</li>
+                                <li>目前最新版本至我知識截止 (2024年10月) 為 <strong>TypeScript 5.5</strong>。</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Rust:</strong>
+                            <ul>
+                                <li>無與倫比的內存安全和性能。</li>
+                                <li>系統編程、WebAssembly、基礎設施領域的快速增長。</li>
+                                <li>所有權模型為 AI 生成安全代碼提供保障。</li>
+                                <li>解決了傳統系統語言的痛點。</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>總結：AI Coding 的高效協作範式</h2>
+            <p>我們可以這樣總結 AI-Coding 的協作模式：</p>
+            <div class="key-summary-item">
+                <h4>資深設計專家主導，AI 高效執行</h4>
+                <p>資深設計專家（人類）負責定義和掌控系統的「膠水點」與關鍵架構。在這個堅實的框架內，專家能夠快速迭代並發揮其領域專長。同時，策略性地利用 AI 處理從基礎組件實現到模式化開發任務的各個層面（只要接口明確定義），從而顯著提升整體開發效率與系統質量。</p>
+            </div>
+            <p>這不僅是一種技術方法，更是一種平衡人類創造力、戰略思維與 AI 強大執行能力的哲學。它讓我們專注於最具價值的創造性工作，將重複和模式化的任務交給 AI，最終實現更高效、更高質量的軟體開發。</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Han Bell</p>
+        </div>
+    </footer>
+</body>
+</html>
